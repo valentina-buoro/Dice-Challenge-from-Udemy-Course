@@ -10,10 +10,10 @@ image1.setAttribute("src", randomImageSource);
 
 //REPEATED THE SAME STEPS FOR THE SECOND IMAGE
 var randomNumber2 = Math.floor(Math.random()*6)+1;
-var randomImage2 = "dice"+randomNumber1+".png";
+var randomImage2 = "dice"+randomNumber2+".png";
 var randomImageSource2 = "images/"+randomImage2;
 
-var image1 = document.querySelectorAll("img")[1].setAttribute("src", randomImageSource);
+var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 // TO CHANGE THE TEXT WHEN EACH PLAYER WINS
 if(randomNumber1 > randomNumber2){
